@@ -1,5 +1,16 @@
 {
-    "require": {
-        "psr/log": "^1.1.4"
-    }
+	"name": "wpvip/logger",
+	"type": "wpvip-module",
+	"description": "Enables PHP logging on WPVIP",
+	"keywords": [ "wpvip" ],
+	"homepage": "https://wpvip.com",
+	"license": "GPL-2.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"Automattic\\WPVIP\\": "src"
+		}
+	},
+	"require": {
+		"psr/log": "^1.1.4"
+	}
 }
