@@ -1,0 +1,14 @@
+.idea
+.DS_Store
+
+# Local PHPDoc configuration file
+# overrides phpdoc.dist.xml
+phpdoc.xml
+phpdoc
+
+# Composer
+/vendor/
+/output/
+
+# npm
+node_modules
