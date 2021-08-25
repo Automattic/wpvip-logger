@@ -2,7 +2,7 @@
 
 namespace Automattic\WPVIP\Logging;
 
-class Gcp_Stderr_Logger extends \Psr\Log\AbstractLogger {
+class GCP_Stderr_Logger extends \Psr\Log\AbstractLogger {
 	private $stderr;
 
 	public function __construct() {
